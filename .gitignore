@@ -9,10 +9,10 @@ __pycache__/
 *.pyo
 .ipynb_checkpoints/
 
-# Data lớn - không commit raw audio/csv nặng
-data/raw/
+# Data lớn - không commit raw audio
 *.wav
 *.mp3
+*.parquet
 
 # Credentials
 *.env
