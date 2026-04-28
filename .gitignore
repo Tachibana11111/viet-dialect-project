@@ -1,0 +1,19 @@
+# Model weights
+*.pt
+*.bin
+*.safetensors
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Data lớn - không commit raw audio/csv nặng
+data/raw/
+*.wav
+*.mp3
+
+# Credentials
+*.env
+token.txt
