@@ -1,0 +1,41 @@
+{
+  "model": "vinai/phobert-base",
+  "test_acc": 0.5203,
+  "test_f1": 0.5207,
+  "epochs": 5,
+  "best_epoch": 4,
+  "val_f1": 0.5841,
+  "class_report": {
+    "Thanh-Nghe-Tinh": {
+      "precision": 0.5058823529411764,
+      "recall": 0.5657894736842105,
+      "f1-score": 0.5341614906832298,
+      "support": 76.0
+    },
+    "Binh-Tri-Thien": {
+      "precision": 0.3937007874015748,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.49504950495049505,
+      "support": 75.0
+    },
+    "Nam-Trung-Bo": {
+      "precision": 0.7261904761904762,
+      "recall": 0.4206896551724138,
+      "f1-score": 0.5327510917030568,
+      "support": 145.0
+    },
+    "accuracy": 0.5202702702702703,
+    "macro avg": {
+      "precision": 0.541924538844409,
+      "recall": 0.5510485985077637,
+      "f1-score": 0.5206540291122606,
+      "support": 296.0
+    },
+    "weighted avg": {
+      "precision": 0.5853791788049545,
+      "recall": 0.5202702702702703,
+      "f1-score": 0.5235604542572831,
+      "support": 296.0
+    }
+  }
+}
